@@ -25,7 +25,7 @@ Console.Write("[");
 Console.Write(string.Join(" ," , AB));
 Console.Write("] -> [");
 
-for( int i = 0; i < AB.Length - 1; i++)
+for( int i = 0; i < AB.Length; i++)
 {
     if(AB[i].Length <= 3)
     { 
